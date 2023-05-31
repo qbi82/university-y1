@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1670522675 source:c:\users\student\documents\lab\laby0812\main.cpp
+	<iostream>
+	<stdlib.h>
+	<cstdio>
+	<string.h>
+

@@ -1,0 +1,86 @@
+Zadanie 2.1
+1:  
+
+adres - 192.168.103.203
+
+2:
+
+C:\Users\student>ipconfig /all
+
+Konfiguracja IP systemu Windows
+
+   Nazwa hosta . . . . . . . . . . . : S2-K14
+   Sufiks podstawowej domeny DNS . . :
+   Typ wêz³a . . . . . . . . . . . . : Hybrydowy
+   Routing IP w³¹czony . . . . . . . : Nie
+   Serwer WINS Proxy w³¹czony. . . . : Nie
+   Lista przeszukiwania sufiksów DNS : S3.politechnika.lublin.pl
+
+Karta Ethernet LAN:
+
+   Stan noœnika . . . .  . . . . . . .: Noœnik od³¹czony
+   Sufiks DNS konkretnego po³¹czenia :
+   Opis. . . . . . . . . . . . . . . : D-Link DGE-530T Gigabit Ethernet Adapter
+   Adres fizyczny. . . . . . . . . . : 00-0F-3D-F4-58-CF
+   DHCP w³¹czone . . . . . . . . . . : Tak
+   Autokonfiguracja w³¹czona . . . . : Tak
+
+Karta Ethernet Internet:
+
+   Sufiks DNS konkretnego po³¹czenia : S3.politechnika.lublin.pl
+   Opis. . . . . . . . . . . . . . . : Realtek PCIe FE Family Controller
+   Adres fizyczny. . . . . . . . . . : D8-D3-85-7C-0D-A9
+   DHCP w³¹czone . . . . . . . . . . : Tak
+   Autokonfiguracja w³¹czona . . . . : Tak
+   Adres IPv6 po³¹czenia lokalnego . : fe80::2c77:5032:2d38:bb72%10(Preferowane)
+
+   Adres IPv4. . . . . . . . . . . . . : 192.168.103.203(Preferowane)
+   Maska podsieci. . . . . . . . . . : 255.255.255.0
+   Dzier¿awa uzyskana. . . . . . . . : 18 kwietnia 2023 15:39:20
+   Dzier¿awa wygasa. . . . . . . . . : 19 kwietnia 2023 15:39:19
+   Brama domyœlna. . . . . . . . . . : 192.168.103.1
+   Serwer DHCP . . . . . . . . . . . : 192.168.103.1
+   Identyfikator IAID DHCPv6 . . . . : 249090949
+   Identyfikator DUID klienta DHCPv6 : 00-01-00-01-23-2B-DB-A7-D8-D3-85-7C-0D-A9
+
+   Serwery DNS . . . . . . . . . . . : 212.182.65.3
+                                       212.182.64.82
+   NetBIOS przez Tcpip . . . . . . . : W³¹czony
+
+Karta tunelowa isatap.{82F12EAF-7E0B-44E4-A5F4-DC1356D19254}:
+
+   Stan noœnika . . . .  . . . . . . .: Noœnik od³¹czony
+   Sufiks DNS konkretnego po³¹czenia :
+   Opis. . . . . . . . . . . . . . . : Karta Microsoft ISATAP
+   Adres fizyczny. . . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP w³¹czone . . . . . . . . . . : Nie
+   Autokonfiguracja w³¹czona . . . . : Tak
+
+Karta tunelowa isatap.S3.politechnika.lublin.pl:
+
+   Stan noœnika . . . .  . . . . . . .: Noœnik od³¹czony
+   Sufiks DNS konkretnego po³¹czenia : S3.politechnika.lublin.pl
+   Opis. . . . . . . . . . . . . . . : Karta Microsoft ISATAP #2
+   Adres fizyczny. . . . . . . . . . : 00-00-00-00-00-00-00-E0
+   DHCP w³¹czone . . . . . . . . . . : Nie
+   Autokonfiguracja w³¹czona . . . . : Tak
+
+
+3:
+Adres IPv4. . . . . . . . . . . . . : 192.168.103.203
+   Maska podsieci. . . . . . . . . . : 255.255.255.0
+   Brama domyœlna. . . . . . . . . . : 192.168.103.1
+	11000000.10101000.01100111| .00000000
+	Wszystkie komputery znajduja sie w tej samej podsieci
+4: Opis: 	D-Link DGE-530T Gigabit Ethernet Adapter
+   Adres fizyczny:	 00-0F-3D-F4-58-CF
+	Tak jest podobienstwo, poniewaz inne stacje robocze maja te sama karte sieciowa.
+5: tak
+6: Centrum sieci i udostêpniania -> zmien ustawienia karty sieciowej -> wlasciwosci -> Protokol internetowy w wersji 4 -> wlasciwosci
+
+netsh interface ip set address name="Internet"
+source=static
+addr=172.16.1.8 mask=255.255.0.0 gwmetric=0
+
+
+

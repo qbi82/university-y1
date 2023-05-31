@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1679408966 source:c:\users\tkuba\documents\projekty c\lab03_algo\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+

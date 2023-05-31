@@ -1,0 +1,49 @@
+LAB 3 
+
+ZAD 4.1
+Jakie informacje 
+mo¿esz skonfigurowaæ w oknie IP Configuration?
+- Ip adress, subnet mask, default gateway, default gateway, dns server, konfiguracja ipv6:
+-ipv6 adress, link local address,ipv6 gateway, ipv6 dns server
+
+
+ile informacji znajduje siê w In Layers, a ile w Out 
+Layers?
+W IN Layers 3, w Out Layers 0
+
+
+Jaka jest nazwa formatów PDU w zak³adkach zak³adkach Inbound PDU Details oraz 
+zak³adkach Outbound PDU Details?
+- INBOUND: Ethermet II, IP, OSPF HELLO, NEIGHBOUR
+- Outbound brak
+
+Wymieñ kategorie urz¹dzeñ poœrednicz¹cych?
+-routery
+-huby
+-koncentratory, prze³¹czniki, bezprzewodowe punkty dostêpowe
+-firewalle
+-modemy i serwery komunikacyjne
+
+Ile jest urz¹dzeñ koñcowych?
+13
+
+Ile jest urz¹dzeñ poœrednicz¹cych?
+25
+
+Ile jest routerów w tej topologii?
+3
+
+Ile  ró¿nych  rodzajów  mediów zosta³o u¿ytych  jest  do  wykonania  po³¹czeñ  w  tej topologii?
+
+
+
+Dlaczego w kategorii Connections nie ma ikony po³¹czenia bezprzewodowego?
+
+Wymieñ co najmniej dwie funkcje urz¹dzeñ poœrednicz¹cych
+
+
+Wymieñ co najmniej dwa kryteria doboru medium sieciowego
+
+
+Wyjaœnij ró¿nice zachodz¹ce pomiêdzy sieciami LAN i WAN. Podaj przyk³ady ka¿dej 
+z nich

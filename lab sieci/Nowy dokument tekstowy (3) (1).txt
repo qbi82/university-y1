@@ -1,0 +1,18 @@
+zastosuj quicksort oraz c++
+wygreneruj tablice o wymiarach 20x20 liczb losowych calkowitych z zakresu <0;50>. Jako seed przyjmij: srand(1)
+a.
+Wyswietl tablice na ekranie.
+b. znajdz maksymalny element w wierszu nr 2 (jezeli jest kilka - przyjmij dowolny z nich) - wyswietl numer kolumny
+c.posortuje dane rosnaco wzgledem kolumny w ktorej znaleziono maksimum ( sortowanie calej tablicy wzgledem kolumny)
+d.wyswietl posortowana tablice na ekranie
+Podstawowe funkcjonalnosci programu powinyn znajdowac sie w funkcjach. 
+
+
+
+
+Wczytaj dane z pliku "studenci.csv". W pliku znajduja sie nastepujace dane:
+a. Numer pesel (11cyfr, cyfry 3 i 4 wskazuja na miesiac urodzenia danej osoby - przyklad
+97012894365;JANICKA;KLAUDIA - urodzila sie w miesiacu styczen
+b.Nazwisko
+c. Imie
+pierwsza linia zawiera naglowki kolumn, wierszy z danymi jest 330, separatorem w pliku jest znak ";" prosze napisac pogram, ktory podzieli znajdujace sie rekordy na 3 czesci - osoby urodzone w miesiacach styczen-kwiecien, maj-sierpien i wrzesien - grudzien, a nastepnie posortowane dane (pesel, imie, nazwisko). Wyswietl liczbe osob z kazdej z podgrup. przeferowany jest algorytm o zlozonosci obliczeniowej i pamieciowej n
