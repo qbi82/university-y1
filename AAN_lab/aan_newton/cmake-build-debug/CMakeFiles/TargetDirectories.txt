@@ -1,0 +1,3 @@
+C:/Users/tkuba/CLionProjects/aan_newton/cmake-build-debug/CMakeFiles/aan_newton.dir
+C:/Users/tkuba/CLionProjects/aan_newton/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/tkuba/CLionProjects/aan_newton/cmake-build-debug/CMakeFiles/rebuild_cache.dir
